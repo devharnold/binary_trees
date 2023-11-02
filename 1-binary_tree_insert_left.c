@@ -19,6 +19,15 @@ struct binary_tree_s
 };
 typedef struct binary_tree_s binary_tree_t;
 
+/**
+ * int value : the representation of node value
+ * binary_tree_t *binary_tree_insert_left : our main function
+ * new_node: The node added acts as value
+ * @parent: The parent node
+ * 
+*/
+
+
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value){
     if (parent == NULL){
         return NULL;
