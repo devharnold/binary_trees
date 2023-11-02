@@ -1,5 +1,5 @@
-#ifndef BINARY_H
-#define BINARY_H
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -39,4 +39,4 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 
-#endif
+#endif /* BINARY_TREES_H */
