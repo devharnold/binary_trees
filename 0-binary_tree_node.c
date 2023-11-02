@@ -2,13 +2,14 @@
 #include <binary_trees.h>
 #include <stdlib.h>
 
-struct binary_tree_s{
-    int n;
-    struct binary_tree_s *parent;
-    struct binary_tree_s *left;
-    struct binary_tree_s *right;
-};
-typedef struct binary_tree_s binary_tree_t;
+/**
+ * new_node - The new value to be inserted
+ * binary_tree_t *binary_tree_node: The main function
+ * @malloc: The memory allocation function
+ * 
+ * return: Upon Success -> new_node
+*/
+
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value){
     binary_tree_t *new_node = malloc(sizeof(binary_tree_t));
